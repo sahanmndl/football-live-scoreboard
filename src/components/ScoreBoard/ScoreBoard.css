@@ -1,0 +1,123 @@
+.text-danger {
+    color: #ff3d3d;
+}
+
+.label {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #6e6e6e;
+    font-weight: 700;
+    letter-spacing: 0.095em;
+    margin-bottom: 4px;
+}
+
+.league__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.league {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #212121;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.league__logo {
+    height: 30px;
+    width: 30px;
+}
+
+.mb-05 {
+    margin-bottom: 4px;
+}
+
+.ml-1 {
+    margin-left: 8px;
+}
+
+.ml-2 {
+    margin-left: 16px;
+}
+
+.mr-1 {
+    margin-right: 8px;
+}
+
+.mr-2 {
+    margin-right: 16px;
+}
+
+html,
+
+* {
+    box-sizing: border-box;
+}
+
+.scoreboard {
+    background: aliceblue;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    color: #0f0f0f;
+    width: 750px;
+    font-weight: 600;
+    padding: 16px;
+}
+.scoreboard__container {
+    padding: 16px;
+}
+.scoreboard__result {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.scoreboard .scoreboard__result-home,
+.scoreboard .scoreboard__result-away,
+.scoreboard .scoreboard__result-separator {
+    font-size: 26px;
+}
+.scoreboard .scoreboard__result-separator {
+    margin: 0 8px;
+    color: #6e6e6e;
+}
+.scoreboard__badge {
+    width: 38px;
+    height: 38px;
+}
+.scoreboard__badge img {
+    height: 100%;
+}
+.scoreboard__teams {
+    display: flex;
+    justify-content: center;
+}
+.scoreboard__team {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+.scoreboard__team--align-right {
+    flex-direction: row-reverse;
+}
+.scoreboard__team--align-right .scoreboard__name {
+    text-align: right;
+}
+.scoreboard__team--align-left .scoreboard__name {
+    text-align: left;
+}
+.scoreboard__name {
+    display: block;
+    width: 100px;
+}
+.scoreboard__basics {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
