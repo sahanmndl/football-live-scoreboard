@@ -63,9 +63,10 @@ html,
     margin-bottom: 24px;
     border-radius: 8px;
     color: #0f0f0f;
-    width: 750px;
+    width: 50%;
     font-weight: 600;
     padding: 16px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .scoreboard__container {
     padding: 16px;

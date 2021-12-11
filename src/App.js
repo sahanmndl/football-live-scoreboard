@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import {useEffect, useState} from "react";
 import {API_KEY} from "./services/api-football";
 import ScoreBoard from "./components/ScoreBoard/ScoreBoard";
