@@ -18,7 +18,7 @@ function Navbar() {
 
     return(
         <>
-            <AppBar position="static" style={{backgroundColor: "cornflowerblue", marginBottom: "50px"}}>
+            <AppBar position="static" style={{backgroundColor: "cornflowerblue"}}>
                 <Toolbar>
                     <IconButton edge="start" color="inherit">
                         <SportsSoccer />
@@ -26,10 +26,10 @@ function Navbar() {
                     <Typography variant="h6">
                         Football Live Scoreboard
                     </Typography>
-                    {/*<InputBase className="search__bar" value={search} onChange={updateSearch}/>
+                    <InputBase className="search__bar" value={search} onChange={updateSearch}/>
                     <IconButton edge="end" color="inherit" onClick={getSearch}>
                         <Search/>
-                    </IconButton>*/}
+                    </IconButton>
                 </Toolbar>
             </AppBar>
         </>
