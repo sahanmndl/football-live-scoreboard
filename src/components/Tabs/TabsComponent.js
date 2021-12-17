@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Box, Tab, Tabs, Typography} from "@material-ui/core";
-import {API_KEY} from "../../services/api-football";
 import ScoreBoard from "../ScoreBoard/ScoreBoard";
+import {API_KEY} from "../../services/api-football";
 
 function TabsComponent() {
 
